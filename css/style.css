@@ -17,7 +17,7 @@ Debug
 .debug header{
     background-color: #add8e6;
 }
-.debug .col{
+.debug header .col{
     background-color: #daa520;
 }
 .debug .h-container{
@@ -43,6 +43,23 @@ Debug
     background-color: #228b22;
     height: 900px;
 }
+.debug footer .row .col:first-child{
+    background-color: #f08080;
+    height: 580px;
+}
+.debug footer .row .col:nth-child(n+2){
+    background-color: #20b2aa;
+    height: 580px;
+}
+.debug .f-container{
+    background-color: #7fffd4;
+}
+.debug .f-logo{
+    background-color: #ffb6c1;
+}
+.debug button{
+    background-color: #ffb6c1;
+}
 /* 
 -----------
 */
@@ -52,11 +69,12 @@ Header
 */
 .row{
     display: flex;
-    justify-content: center;
     align-items: flex-start;
 }
 header .row{
-    padding: 15px;;
+    padding: 15px;
+    font-size: 20px;
+    justify-content: center;
 }
 header .col{
     padding: 15px;
@@ -89,6 +107,7 @@ main :nth-child(even){
 }
 main .row{
     padding: 50px;
+    justify-content: center;
 }
 .big{
     width: 720px;
@@ -97,11 +116,49 @@ main .row{
     width: 470px;
 }
 .m-box{
-    max-width: 1190px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .m-container{
     padding: 50px 0;
+}
+/* 
+---------
+*/
+
+/* 
+Footer
+*/
+footer{
+    background-color: #23272a;
+}
+
+footer .row .col:first-child{
+    width: 360px;
+}
+footer .row .col:nth-child(n+2){
+    width: 210px;
+}
+
+footer .row:first-child{
+    padding: 10px 0 40px;
+    border-bottom: 2px solid white;
+    justify-content: center;
+}
+.row.f-container{
+    justify-content: space-between;
+}
+.f-container{
+    width: 1200px;
+    margin: 30px auto;
+    padding: 25px 0;
+}
+.f-logo{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    font-size: 18px;
 }
 /* 
 ---------
