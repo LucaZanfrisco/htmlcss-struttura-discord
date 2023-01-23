@@ -19,7 +19,6 @@ Debug
 }
 .debug .col{
     background-color: #daa520;
-    border: 1px dashed black;
 }
 .debug .h-container{
     background-color: #00008b;
@@ -27,8 +26,22 @@ Debug
 }
 .debug .box{
     background-color: #ee82ee;
-    border: 1px dashed black;
     height: 400px;
+}
+.debug .border{
+    border: 2px dashed black;
+}
+.debug .big{
+    background-color: #1e90ff;
+    height: 500px;
+}
+.debug .small{
+    background-color: #ffc0cb;
+    height: 500px;
+}
+.debug .m-box{
+    background-color: #228b22;
+    height: 900px;
 }
 /* 
 -----------
@@ -40,9 +53,12 @@ Header
 .row{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    align-items: flex-start;
 }
-.col{
+header .row{
+    padding: 15px;;
+}
+header .col{
     padding: 15px;
 }
 .logo{
@@ -63,4 +79,30 @@ Header
 }
 /* 
 ----------
+*/
+
+/* 
+Main
+*/
+main :nth-child(even){
+    background-color: #d3d3d3;
+}
+main .row{
+    padding: 50px;
+}
+.big{
+    width: 720px;
+}
+.small{
+    width: 470px;
+}
+.m-box{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.m-container{
+    padding: 50px 0;
+}
+/* 
+---------
 */
