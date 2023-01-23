@@ -16,7 +16,6 @@ Debug
 */
 .debug header{
     background-color: #add8e6;
-    height: 80px;
 }
 .debug .col{
     background-color: #daa520;
@@ -24,12 +23,12 @@ Debug
 }
 .debug .h-container{
     background-color: #00008b;
-    height: 500px;
     padding: 50px 0px;
 }
 .debug .box{
     background-color: #ee82ee;
     border: 1px dashed black;
+    height: 400px;
 }
 /* 
 -----------
@@ -61,7 +60,6 @@ Header
 .box{
     width: 50%;
     margin: 0 auto;
-    height: 400px;
 }
 /* 
 ----------
