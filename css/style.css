@@ -14,7 +14,7 @@ Reset
 /* 
 Debug
 */
-.debug header{
+.debug header .row{
     background-color: #add8e6;
 }
 .debug header .col{
@@ -22,7 +22,6 @@ Debug
 }
 .debug .h-container{
     background-color: #00008b;
-    padding: 50px 0px;
 }
 .debug .box{
     background-color: #ee82ee;
@@ -69,15 +68,18 @@ Header
 */
 .row{
     display: flex;
-    align-items: flex-start;
 }
 header .row{
-    padding: 15px;
+    padding: 15px 0;
     font-size: 20px;
     justify-content: center;
 }
 header .col{
     padding: 15px;
+}
+.h-container{
+    padding: 50px 0;
+    border-bottom: 4px solid #add8e6;
 }
 .logo{
     width: 250px;
@@ -106,7 +108,7 @@ main :nth-child(even){
     background-color: #d3d3d3;
 }
 main .row{
-    padding: 50px;
+    padding: 50px 0px;
     justify-content: center;
 }
 .big{
@@ -131,15 +133,14 @@ Footer
 */
 footer{
     background-color: #23272a;
+    border-bottom: 2px solid white;
 }
-
 footer .row .col:first-child{
     width: 360px;
 }
 footer .row .col:nth-child(n+2){
     width: 210px;
 }
-
 footer .row:first-child{
     padding: 10px 0 40px;
     border-bottom: 2px solid white;
@@ -149,8 +150,8 @@ footer .row:first-child{
     justify-content: space-between;
 }
 .f-container{
-    width: 1200px;
-    margin: 30px auto;
+    max-width: 1200px;
+    margin: 30px auto 0;
     padding: 25px 0;
 }
 .f-logo{
